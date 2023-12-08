@@ -37,7 +37,7 @@ jobs:
       - uses: mr-smithers-excellent/docker-build-push@v4
         name: Build & push Docker image
         with:
-            image: gurmeetmalik007/glproject
+            image: gurmeetmalik007253/mlproject
             registry: docker.io
             username: ${{ secrets.DOCKER_USERNAME }}
             password: ${{ secrets.DOCKER_PASSWORD }}
